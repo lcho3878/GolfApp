@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		15F562322A9D8BCF00209917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562312A9D8BCF00209917 /* AppDelegate.swift */; };
 		15F562342A9D8BCF00209917 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562332A9D8BCF00209917 /* SceneDelegate.swift */; };
-		15F562362A9D8BCF00209917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562352A9D8BCF00209917 /* ViewController.swift */; };
+		15F562362A9D8BCF00209917 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562352A9D8BCF00209917 /* MainViewController.swift */; };
 		15F562392A9D8BCF00209917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F562372A9D8BCF00209917 /* Main.storyboard */; };
 		15F5623B2A9D8BD000209917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F5623A2A9D8BD000209917 /* Assets.xcassets */; };
 		15F5623E2A9D8BD000209917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F5623C2A9D8BD000209917 /* LaunchScreen.storyboard */; };
+		15F562462A9D8C5700209917 /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F562452A9D8C5700209917 /* SecondViewController.storyboard */; };
+		15F5624A2A9D8C7C00209917 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562492A9D8C7C00209917 /* SecondViewController.swift */; };
+		15F5624D2A9D8D0400209917 /* DrivingRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5624C2A9D8D0400209917 /* DrivingRange.swift */; };
+		15F5624F2A9D8D7A00209917 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5624E2A9D8D7A00209917 /* City.swift */; };
+		15F562512A9D8DF300209917 /* ProInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562502A9D8DF300209917 /* ProInfo.swift */; };
+		15F562532A9D8E4700209917 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562522A9D8E4600209917 /* Dummy.swift */; };
+		15F562552A9D90DC00209917 /* DrivingRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562542A9D90DC00209917 /* DrivingRangeCell.swift */; };
+		15F562582A9D91C200209917 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F562572A9D91C200209917 /* CityCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15F5622E2A9D8BCF00209917 /* GolfApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F562312A9D8BCF00209917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15F562332A9D8BCF00209917 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15F562352A9D8BCF00209917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15F562352A9D8BCF00209917 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		15F562382A9D8BCF00209917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15F5623A2A9D8BD000209917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15F5623D2A9D8BD000209917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15F5623F2A9D8BD000209917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F562452A9D8C5700209917 /* SecondViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
+		15F562492A9D8C7C00209917 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		15F5624C2A9D8D0400209917 /* DrivingRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingRange.swift; sourceTree = "<group>"; };
+		15F5624E2A9D8D7A00209917 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		15F562502A9D8DF300209917 /* ProInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProInfo.swift; sourceTree = "<group>"; };
+		15F562522A9D8E4600209917 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		15F562542A9D90DC00209917 /* DrivingRangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingRangeCell.swift; sourceTree = "<group>"; };
+		15F562572A9D91C200209917 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,53 @@
 			children = (
 				15F562312A9D8BCF00209917 /* AppDelegate.swift */,
 				15F562332A9D8BCF00209917 /* SceneDelegate.swift */,
-				15F562352A9D8BCF00209917 /* ViewController.swift */,
-				15F562372A9D8BCF00209917 /* Main.storyboard */,
-				15F5623A2A9D8BD000209917 /* Assets.xcassets */,
+				15F562482A9D8C6200209917 /* ViewController */,
+				15F562472A9D8C5C00209917 /* Storyboard */,
+				15F5624B2A9D8CE300209917 /* Model */,
 				15F5623C2A9D8BD000209917 /* LaunchScreen.storyboard */,
+				15F5623A2A9D8BD000209917 /* Assets.xcassets */,
 				15F5623F2A9D8BD000209917 /* Info.plist */,
 			);
 			path = GolfApp;
+			sourceTree = "<group>";
+		};
+		15F562472A9D8C5C00209917 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				15F562372A9D8BCF00209917 /* Main.storyboard */,
+				15F562452A9D8C5700209917 /* SecondViewController.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		15F562482A9D8C6200209917 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15F562352A9D8BCF00209917 /* MainViewController.swift */,
+				15F562492A9D8C7C00209917 /* SecondViewController.swift */,
+				15F562562A9D91B300209917 /* Cells */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		15F5624B2A9D8CE300209917 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15F5624E2A9D8D7A00209917 /* City.swift */,
+				15F5624C2A9D8D0400209917 /* DrivingRange.swift */,
+				15F562502A9D8DF300209917 /* ProInfo.swift */,
+				15F562522A9D8E4600209917 /* Dummy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15F562562A9D91B300209917 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				15F562572A9D91C200209917 /* CityCell.swift */,
+				15F562542A9D90DC00209917 /* DrivingRangeCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15F5623E2A9D8BD000209917 /* LaunchScreen.storyboard in Resources */,
+				15F562462A9D8C5700209917 /* SecondViewController.storyboard in Resources */,
 				15F5623B2A9D8BD000209917 /* Assets.xcassets in Resources */,
 				15F562392A9D8BCF00209917 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F562362A9D8BCF00209917 /* ViewController.swift in Sources */,
+				15F5624A2A9D8C7C00209917 /* SecondViewController.swift in Sources */,
+				15F562362A9D8BCF00209917 /* MainViewController.swift in Sources */,
+				15F562582A9D91C200209917 /* CityCell.swift in Sources */,
+				15F562532A9D8E4700209917 /* Dummy.swift in Sources */,
+				15F5624F2A9D8D7A00209917 /* City.swift in Sources */,
+				15F562552A9D90DC00209917 /* DrivingRangeCell.swift in Sources */,
 				15F562322A9D8BCF00209917 /* AppDelegate.swift in Sources */,
+				15F562512A9D8DF300209917 /* ProInfo.swift in Sources */,
 				15F562342A9D8BCF00209917 /* SceneDelegate.swift in Sources */,
+				15F5624D2A9D8D0400209917 /* DrivingRange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +358,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,9 +366,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chanho.GolfApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +389,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +397,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = chanho.GolfApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
