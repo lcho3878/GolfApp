@@ -36,4 +36,11 @@ class DetailViewController: UIViewController {
         }
         return result
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "DetailToReservation" {
+            let reservationViewController = segue.destination as! ReservationViewCellViewController
+            reservationViewController.pro = pro
+        }
+    }
 }
