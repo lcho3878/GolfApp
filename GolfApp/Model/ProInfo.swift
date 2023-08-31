@@ -14,6 +14,7 @@ class ProInfo {
     let proNationality: String
     var proImage: UIImage?
     var proCareer: [String]?
+    var reservationTime: [Date] = []
     
     init(dr: DrivingRange, proName: String, proNationality: String, proImage: UIImage? = nil, proCareer: [String]? = nil) {
         self.dr = dr
