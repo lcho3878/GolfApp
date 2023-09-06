@@ -7,22 +7,29 @@
 
 import UIKit
 
-class ReservationCell: UITableViewCell {
+class ReservationCell: UICollectionViewCell {
 
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
     override func prepareForReuse() {
-        label.textColor = .black
+        backgroundColor = .systemGreen
+    }
+    
+    override var isSelected: Bool {
+        didSet {
+            if isSelected {
+                layer.borderWidth = 1.0
+                layer.borderColor = UIColor.red.cgColor
+            }
+            else {
+                layer.borderWidth = 0.0
+            }
+        }
     }
 
 }
