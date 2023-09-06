@@ -30,6 +30,7 @@ class ReservationViewCellViewController: UIViewController {
     }
     
     @objc func DateSelect(_ sender: UIDatePicker) {
+        index = nil
         makeTimeList(sender.date)
         dateTableView.reloadData()
     }
@@ -82,6 +83,7 @@ extension ReservationViewCellViewController: UITableViewDelegate, UITableViewDat
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ReservationCell", for: indexPath) as? ReservationCell else { return UITableViewCell() }
         cell.label.text = dateList[indexPath.row].toString("a h:mm")
         if pro.reservationTime.contains(dateList[indexPath.row]) {
+            cell.label.text! += " - 예약됨"
             cell.label.textColor = .red
             cell.isUserInteractionEnabled = false
         }
