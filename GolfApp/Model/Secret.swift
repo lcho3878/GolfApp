@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+let secret = "this is secret"
+let secret2 = "this is secret2"

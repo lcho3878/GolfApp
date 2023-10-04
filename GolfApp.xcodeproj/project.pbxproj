@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152021432ACCF44100140030 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152021422ACCF44100140030 /* Secret.swift */; };
+		152021452ACCF45900140030 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 152021442ACCF45900140030 /* .gitignore */; };
+		153F308A2AA8703600CCC8F9 /* ReservationListController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153F30892AA8703600CCC8F9 /* ReservationListController.storyboard */; };
+		153F308C2AA8709600CCC8F9 /* MyPageController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153F308B2AA8709600CCC8F9 /* MyPageController.storyboard */; };
+		153F30902AA977CA00CCC8F9 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F308F2AA977CA00CCC8F9 /* MyPageViewController.swift */; };
 		1573705E2AA05C1500B4A464 /* ReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573705D2AA05C1500B4A464 /* ReservationCell.swift */; };
 		15907DF82AA0749A004D09EE /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15907DF72AA0749A004D09EE /* Date.swift */; };
 		15907DFA2AA078F5004D09EE /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15907DF92AA078F5004D09EE /* Function.swift */; };
@@ -34,6 +39,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		152021422ACCF44100140030 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		152021442ACCF45900140030 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		153F30892AA8703600CCC8F9 /* ReservationListController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReservationListController.storyboard; sourceTree = "<group>"; };
+		153F308B2AA8709600CCC8F9 /* MyPageController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPageController.storyboard; sourceTree = "<group>"; };
+		153F308F2AA977CA00CCC8F9 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		1573705D2AA05C1500B4A464 /* ReservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCell.swift; sourceTree = "<group>"; };
 		15907DF72AA0749A004D09EE /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		15907DF92AA078F5004D09EE /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
@@ -101,6 +111,7 @@
 		15F562302A9D8BCF00209917 /* GolfApp */ = {
 			isa = PBXGroup;
 			children = (
+				152021442ACCF45900140030 /* .gitignore */,
 				15F562312A9D8BCF00209917 /* AppDelegate.swift */,
 				15F562332A9D8BCF00209917 /* SceneDelegate.swift */,
 				15F562482A9D8C6200209917 /* ViewController */,
@@ -121,6 +132,8 @@
 				15E865E12A9DD353000DBD54 /* DetailViewController.storyboard */,
 				15F562452A9D8C5700209917 /* NewsViewController.storyboard */,
 				15AE8AF92A9ED0D700DBAB29 /* ReservationViewController.storyboard */,
+				153F30892AA8703600CCC8F9 /* ReservationListController.storyboard */,
+				153F308B2AA8709600CCC8F9 /* MyPageController.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -133,6 +146,7 @@
 				15F562492A9D8C7C00209917 /* NewsViewController.swift */,
 				15E865E32A9DD361000DBD54 /* DetailViewController.swift */,
 				15AE8AF72A9ECF7700DBAB29 /* ReservationViewCellViewController.swift */,
+				153F308F2AA977CA00CCC8F9 /* MyPageViewController.swift */,
 				15F562562A9D91B300209917 /* Cells */,
 			);
 			path = ViewController;
@@ -142,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				15F5624E2A9D8D7A00209917 /* City.swift */,
+				152021422ACCF44100140030 /* Secret.swift */,
 				15F5624C2A9D8D0400209917 /* DrivingRange.swift */,
 				15F562502A9D8DF300209917 /* ProInfo.swift */,
 				15F562522A9D8E4600209917 /* Dummy.swift */,
@@ -220,11 +235,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				15AE8AFA2A9ED0D700DBAB29 /* ReservationViewController.storyboard in Resources */,
+				153F308C2AA8709600CCC8F9 /* MyPageController.storyboard in Resources */,
 				15F5623E2A9D8BD000209917 /* LaunchScreen.storyboard in Resources */,
 				15F562462A9D8C5700209917 /* NewsViewController.storyboard in Resources */,
 				15E865E22A9DD353000DBD54 /* DetailViewController.storyboard in Resources */,
 				15F5623B2A9D8BD000209917 /* Assets.xcassets in Resources */,
 				15F562392A9D8BCF00209917 /* Main.storyboard in Resources */,
+				152021452ACCF45900140030 /* .gitignore in Resources */,
+				153F308A2AA8703600CCC8F9 /* ReservationListController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153F30902AA977CA00CCC8F9 /* MyPageViewController.swift in Sources */,
+				152021432ACCF44100140030 /* Secret.swift in Sources */,
 				15E865E42A9DD361000DBD54 /* DetailViewController.swift in Sources */,
 				15F5624A2A9D8C7C00209917 /* NewsViewController.swift in Sources */,
 				1573705E2AA05C1500B4A464 /* ReservationCell.swift in Sources */,

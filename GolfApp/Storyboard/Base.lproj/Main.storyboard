@@ -124,7 +124,7 @@
                                 <rect key="frame" x="16" y="414" width="182" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -135,6 +135,7 @@
                     <navigationItem key="navigationItem" id="ope-5A-HT4"/>
                     <connections>
                         <outlet property="firstCollectionView" destination="bjD-Db-jhX" id="U5M-1V-txF"/>
+                        <outlet property="proLabel" destination="XMt-QE-BHl" id="Nl7-Ze-fuw"/>
                         <segue destination="n0h-bF-ehU" kind="show" identifier="CityToDR" id="RAk-CE-bWD"/>
                         <segue destination="2cm-fu-5TT" kind="show" identifier="MainToDetail" id="7qW-nl-djR"/>
                     </connections>
@@ -298,6 +299,8 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="yf2-31-2qH"/>
                         <segue destination="9WO-lq-5X2" kind="relationship" relationship="viewControllers" id="STF-Lt-CIH"/>
+                        <segue destination="Seq-QN-XVX" kind="relationship" relationship="viewControllers" id="ZWL-4P-TwW"/>
+                        <segue destination="n4U-Hi-s4q" kind="relationship" relationship="viewControllers" id="eKN-lK-Tic"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MYT-Ox-RJD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -312,7 +315,27 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hBo-Xd-Hk1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="728" y="372"/>
+            <point key="canvasLocation" x="647" y="365"/>
+        </scene>
+        <!--ReservationListController-->
+        <scene sceneID="cZX-Yu-KIG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ReservationListController" id="Seq-QN-XVX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="IPE-kP-E7W"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hbg-Rc-0wr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="365"/>
+        </scene>
+        <!--MyPageController-->
+        <scene sceneID="ac4-hH-oz5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyPageController" id="n4U-Hi-s4q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="TGq-dG-56i"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mjD-pG-b0a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1294" y="365"/>
         </scene>
         <!--DetailViewController-->
         <scene sceneID="Hv2-QT-b16">
@@ -335,6 +358,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

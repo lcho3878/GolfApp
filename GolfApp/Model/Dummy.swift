@@ -8,6 +8,12 @@
 import Foundation
 import UIKit
 
+enum Mode {
+    case light
+    case dark
+}
+
+var modeSetting: Mode = .light
 var seoul = City(cityName: "seoul", cityImage: UIImage(named: "seoul"))
 var busan = City(cityName: "busan", cityImage: UIImage(named: "busan"))
 

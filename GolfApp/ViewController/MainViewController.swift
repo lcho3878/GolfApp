@@ -10,6 +10,8 @@ import UIKit
 class MainViewController: UIViewController {
     var citySelection: City?
     var pro: ProInfo?
+    @IBOutlet weak var proLabel: UILabel!
+    
     @IBOutlet weak var firstCollectionView: UICollectionView!
     @IBOutlet weak var secondCollectionView: UICollectionView!
     
@@ -20,6 +22,12 @@ class MainViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         citySelection = nil
         firstCollectionView.reloadData()
+        if modeSetting == .light {
+            proLabel.textColor = .black
+        }
+        else {
+            proLabel.textColor = .white
+        }
     }
 
 }

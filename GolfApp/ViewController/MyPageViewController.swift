@@ -8,7 +8,17 @@
 import UIKit
 
 class MyPageViewController: UIViewController {
-
+    
+    @IBAction func lightButton(_ sender: Any) {
+        view.window?.overrideUserInterfaceStyle = .light
+        modeSetting = .light
+    }
+    
+    @IBAction func darkButton(_ sender: Any) {
+        view.window?.overrideUserInterfaceStyle = .dark
+        modeSetting = .dark
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
